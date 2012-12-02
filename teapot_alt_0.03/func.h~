@@ -1,0 +1,6 @@
+void save(void);
+void copycells(struct field **space_array);
+void calcdt(void);
+void doevents(void);
+void calcnextevent(void);
+//void save_calc(void);

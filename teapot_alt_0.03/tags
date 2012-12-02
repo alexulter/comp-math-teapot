@@ -1,0 +1,72 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+BoundTea	bounds.c	/^void BoundTea(void)$/;"	f
+CFLAGS	makefile	/^CFLAGS = -Wall -O2$/;"	m
+Calculate	calc.c	/^void Calculate(void)$/;"	f
+Cell	types.h	/^struct Cell$/;"	s
+Event	types.h	/^struct Event$/;"	s
+Finish	init.c	/^void Finish(void)$/;"	f
+Ftheta	scheme.c	/^double *Ftheta;$/;"	v
+Ftheta_prev	scheme.c	/^double *Ftheta_prev;$/;"	v
+Fw	scheme.c	/^double *Fw;$/;"	v
+Fw_prev	scheme.c	/^double *Fw_prev;$/;"	v
+Init	init.c	/^void Init(void)$/;"	f
+Jtheta	scheme.c	/^double *Jtheta;$/;"	v
+Jw	scheme.c	/^double *Jw;$/;"	v
+Jwpp	scheme.c	/^double *Jwpp;$/;"	v
+Jwpx	scheme.c	/^double *Jwpx;$/;"	v
+Jwxp	scheme.c	/^double *Jwxp;$/;"	v
+K	defs.h	/^double K;$/;"	v
+T	defs.h	/^double T;$/;"	v
+T	types.h	/^  double T;$/;"	m	struct:Event
+Ttheta	scheme.c	/^double *Ttheta;$/;"	v
+Tw	scheme.c	/^double *Tw;$/;"	v
+absd	func.c	/^double absd(double x)$/;"	f
+alphax	scheme.c	/^double *alphax;$/;"	v
+alphay	scheme.c	/^double *alphay;$/;"	v
+beta	defs.h	/^double beta;$/;"	v
+betax	scheme.c	/^double *betax;$/;"	v
+betay	scheme.c	/^double *betay;$/;"	v
+bounds	defs.h	/^void (*bounds)();$/;"	v
+calcdt	func.c	/^void calcdt(void)$/;"	f
+calcnextevent	func.c	/^void calcnextevent(void)$/;"	f
+cells	defs.h	/^struct Cell *cells;$/;"	v
+cells2	defs.h	/^struct Cell *cells2;$/;"	v
+copycells	func.c	/^void copycells(void)$/;"	f
+doevents	func.c	/^void doevents(void)$/;"	f
+dt	defs.h	/^double dt;$/;"	v
+dt0	defs.h	/^double dt0;$/;"	v
+events	defs.h	/^struct Event *events;$/;"	v
+filenom	func.c	/^int filenom=0;$/;"	v
+fx	scheme.c	/^double *fx;$/;"	v
+fy	scheme.c	/^double *fy;$/;"	v
+hx	defs.h	/^double hx;$/;"	v
+hy	defs.h	/^double hy;$/;"	v
+main	teapot.c	/^int main(void)$/;"	f
+min	func.c	/^double min(double x, double y)$/;"	f
+nextevent	defs.h	/^double nextevent;$/;"	v
+numevents	defs.h	/^double numevents;$/;"	v
+numxcells	defs.h	/^unsigned int numxcells;$/;"	v
+numycells	defs.h	/^unsigned int numycells;$/;"	v
+p	scheme.c	/^double *p;$/;"	v
+param	types.h	/^  double param;$/;"	m	struct:Event
+pi	defs.h	/^const double pi = 3.14159265345;$/;"	v
+psi	types.h	/^  double psi;$/;"	m	struct:Cell
+psi1	scheme.c	/^double *psi1;$/;"	v
+psi2	scheme.c	/^double *psi2;$/;"	v
+psi3	scheme.c	/^double *psi3;$/;"	v
+q	scheme.c	/^double *q;$/;"	v
+save	func.c	/^void save(void)$/;"	f
+scheme	defs.h	/^void (*scheme)();$/;"	v
+schemefinish	defs.h	/^void (*schemefinish)();$/;"	v
+step	defs.h	/^long step;$/;"	v
+teascheme	scheme.c	/^void teascheme(void)$/;"	f
+teascheme_finish	scheme.c	/^void teascheme_finish(void)$/;"	f
+teascheme_init	scheme.c	/^void teascheme_init(void)$/;"	f
+theta	types.h	/^  double theta;$/;"	m	struct:Cell
+type	types.h	/^  int type;                  \/\/ type=1  -  exit$/;"	m	struct:Event
+w	types.h	/^  double w;$/;"	m	struct:Cell

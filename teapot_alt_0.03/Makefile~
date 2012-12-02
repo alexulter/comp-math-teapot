@@ -1,0 +1,30 @@
+run: part_alex.o part_jeka.o graphics.o main.o progonka_funct.o init.o calc.o scheme.o func.o bounds.o init.h calc.h types.h defs.h
+	gcc part_alex.o part_jeka.o graphics.o main.o progonka_funct.o init.o calc.o scheme.o func.o bounds.o -o run `pkg-config --cflags --libs libglade-2.0` -Wall -lm
+progonka_funct.o: progonka_funct.c
+	gcc progonka_funct.c -c -o progonka_funct.o -Wall
+part_alex.o: part_alex.c
+	gcc part_alex.c -c -o part_alex.o -Wall
+part_jeka.o: part_jeka.c
+	gcc part_jeka.c -c -o part_jeka.o -Wall
+graphics.o: graphics.c
+	gcc graphics.c -c -o graphics.o `pkg-config --cflags --libs libglade-2.0` -Wall
+main.o: main.c
+	gcc main.c -c -o main.o -Wall
+
+init.o: init.c extern.h types.h
+	gcc -Wall -O2 -c init.c
+
+calc.o: calc.c extern.h types.h func.h
+	gcc -Wall -O2 -c calc.c
+
+scheme.o: scheme.c extern.h types.h
+	gcc -Wall -O2 -c scheme.c
+
+func.o: func.c extern.h types.h
+	gcc -Wall -O2 -c func.c
+
+bounds.o: bounds.c extern.h types.h
+	gcc -Wall -O2 -c bounds.c
+
+clean:
+	rm *.o
